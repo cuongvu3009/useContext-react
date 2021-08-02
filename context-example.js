@@ -11,3 +11,6 @@ const useGlobalContext = () => {
 };
 
 export default { AppContext, AppProvider };
+
+//Remember to add wrap  <AppProvider> component to index.js
+//import and call const { } = useGlobalContext() to use
